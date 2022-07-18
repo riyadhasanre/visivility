@@ -7,19 +7,39 @@
     <title>Transition file</title>
     <style>
         .box{
-            width:200px;
-            height:200px;
+            width:150px;
+            height:150px;
             border:2px solid cadetblue;
             background-color: blueviolet;
+            transition:width 1s,height 1s,transform 1s;
         }
         .box:hover{
-            width: 400px;
+            width: 300px;
+            height:300px;
+            transform: rotate(140deg);
+
         }
+        
     </style>
 </head>
-<body>
-    <div class="box">
-        <h3>transition</h3>
-    </div>
+<body> 
+    <section>
+        
+        <div class="box">
+            <h3>transition</h3>
+        </div>
+    </section>
+    <section>
+        
+        <div class="box">
+            <h3>transition</h3>
+        </div>
+    </section>
+    <section>
+    
+        <div class="box">
+            <h3>transition</h3>
+        </div>
+    </section>
 </body>
 </html>
