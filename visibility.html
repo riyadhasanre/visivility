@@ -5,16 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visibility</title>
+    <style>
+        main{
+            display: flex;
+           
+        }
+        .box{
+            width: 100px;
+            height:100px;
+            border: 1px solid black;
+        }
+        h1{
+            background-color: steelblue;
+        }
+        #box1{
+            background-color: red;
+        }
+        #box2{
+            background-color:green;
+        }
+        #box3{
+            background-color: tomato;
+            visibility:hidden;
+        }
+        #box4{
+            background-color: blue;
+        }
+        #box5{
+            background-color: turquoise;
+        }
+        #box6{
+            background-color:seagreen;
+        }
+        #box7{
+            background-color: purple;
+            display: none;
+        }
+        #box8{
+            background-color: yellow;
+        }
+        .section-1st{
+            width:50%;
+            
+        }
+        .section-2nd{
+            width:50%;
+
+           
+        }
+    </style>
 </head>
 <body>
-    <section>
-        <h1>This is visibility</h1>
-        
-        <div class="box" Id="box1"></div>
-        <div class="box" Id="box2"></div>
-        <div class="box" Id="box3"></div>
-        <div class="box" Id="box4"></div>
+   <main>
+        <section class="section-1st">
+            <h1>This is visibility secton 1</h1>
+            
+            <div class="box" Id="box1"></div>
+            <div class="box" Id="box2"></div>
+            <div class="box" Id="box3"></div>
+            <div class="box" Id="box4"></div>
 
-    </section>
+        </section>
+        <section class="section-2nd">
+            <h1>This is visibility section 2</h1>
+            
+            <div class="box" Id="box5"></div>
+            <div class="box" Id="box6"></div>
+            <div class="box" Id="box7"></div>
+            <div class="box" Id="box8"></div>
+
+        </section>
+   </main>
 </body>
 </html>
